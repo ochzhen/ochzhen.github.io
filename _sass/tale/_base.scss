@@ -1,6 +1,6 @@
 * {
   @include box-sizing;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 html,
@@ -33,6 +33,7 @@ h6 {
   color: $default-shade;
   font-family: $sans-serif;
   line-height: normal;
+  margin-top: 1.2em;
 }
 
 a {
