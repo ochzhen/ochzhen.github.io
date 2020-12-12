@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Manual Trigger In Multi-Stage YAML Pipeline"
-tags: Azure Azure_DevOps
+tags: Azure DevOps CI/CD
 ---
 
 YAML pipelines in Azure Pipelines is a great functionality, however, at the time of this writing, it lacks some features. One of those is a manual trigger for a stage. Consider this sample use case:
