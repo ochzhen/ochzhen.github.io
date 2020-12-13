@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fuzz Testing Overview"
+title:  "Fuzz Testing - Overview"
 tags: Testing
 ---
 
@@ -32,7 +32,7 @@ Also, fuzzing can be used in finding regressions in REST APIs, authors call it _
 Another interesting point is that fuzzing is often used by attackers to find vulnerabilities which can be exploited.
 
 
-## What To Test
+## What Can Be Tested
 
 In my understanding, all interfaces that accept input could be fuzz tested. Moreover, one application can undergo fuzzing on different levels.
 
