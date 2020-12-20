@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Manual Trigger In Multi-Stage YAML Pipeline"
-tags: Azure DevOps
+tags: azure azure-devops ci/cd
 ---
 
 YAML pipelines in Azure Pipelines is a great functionality, however, at the time of this writing, it lacks some features. One of those is a manual trigger for a stage. Consider this sample use case:
@@ -31,12 +31,12 @@ This condition should be added to the TEST stage. Of course, this check can be c
 
 When new commit is added to the main branch, pipeline is kicked off automatically but stops after DEV stage:
 
-![Image with caption](/assets/img/manual-trigger-in-yaml-azure-pipelines/stopped-pipeline.png "Pipeline stopped before TEST stage")
+![Pipeline stopped before TEST stage](/assets/img/manual-trigger-in-yaml-azure-pipelines/stopped-pipeline.png "Pipeline stopped before TEST stage")
 _Pipeline stopped before TEST stage_
 
 By triggering run manually TEST stage will be executed if selected in  "Run pipeline" → "Stages to run":
 
-![Image with caption](/assets/img/manual-trigger-in-yaml-azure-pipelines/full-pipeline.png "Fully run pipeline")
+![Fully run pipeline](/assets/img/manual-trigger-in-yaml-azure-pipelines/full-pipeline.png "Fully run pipeline")
 _Fully run pipeline_
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fuzz Testing - Overview"
-tags: Testing
+tags: testing
 ---
 
 Recently, I was interested in learning more about Fuzz Testing, such things as what it is, how it is used, what tools exist and how they differ between each other and, in general, if fuzz testing is really a useful thing :D
