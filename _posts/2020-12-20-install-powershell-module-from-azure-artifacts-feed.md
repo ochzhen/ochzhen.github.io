@@ -8,11 +8,10 @@ In this post we will learn how to install PowerShell module in build/release pip
 
 To get access to the feed and install module it is possible to use `System.AccessToken` that is provided by the execution environment and has access to Azure Artifacts feeds.
 
-We will cover how to do this in both Classic and YAML Pipelines in Azure DevOps. Classic Pipeline's case will be used to give more detailed explanation and then easily translated to YAML pipeline's case:
+We will cover how to do this in both Classic and YAML Pipelines in Azure DevOps. Classic Pipeline's case will be used to give more detailed explanation and then easily translated to YAML pipeline's case.
 
-- [Classic Pipeline](#classic-pipeline)
-- [YAML Pipeline](#yaml-pipeline)
-
+* TOC
+{:toc}
 
 ### Why is it better to use `System.AccessToken`?
 
