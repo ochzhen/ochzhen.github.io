@@ -31,13 +31,13 @@ This condition should be added to the TEST stage. Of course, this check can be c
 
 When new commit is added to the main branch, pipeline is kicked off automatically but stops after DEV stage:
 
-![Pipeline stopped before TEST stage](/assets/img/manual-trigger-in-yaml-azure-pipelines/stopped-pipeline.png "Pipeline stopped before TEST stage")
-_Pipeline stopped before TEST stage_
+[![Pipeline stopped before TEST stage](/assets/img/manual-trigger-in-yaml-azure-pipelines/stopped-pipeline.png "Pipeline stopped before TEST stage")
+_Pipeline stopped before TEST stage_](/assets/img/manual-trigger-in-yaml-azure-pipelines/stopped-pipeline.png){:target="_blank"}
 
 By triggering run manually TEST stage will be executed if selected in  "Run pipeline" → "Stages to run":
 
-![Fully run pipeline](/assets/img/manual-trigger-in-yaml-azure-pipelines/full-pipeline.png "Fully run pipeline")
-_Fully run pipeline_
+[![Fully run pipeline](/assets/img/manual-trigger-in-yaml-azure-pipelines/full-pipeline.png "Fully run pipeline")
+_Fully run pipeline_](/assets/img/manual-trigger-in-yaml-azure-pipelines/full-pipeline.png){:target="_blank"}
 
 
 **Note:** To deploy to the TEST stage we need to create a new run manually. We cannot trigger TEST stage from an existing run.

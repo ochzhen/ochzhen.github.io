@@ -30,15 +30,15 @@ By default `System.AccessToken` is not available in scripts, we need to enable i
 
 After enabling it, we will be able to access this token through `$env:SYSTEM_ACCESSTOKEN` variable in PowerShell.
 
-![Enable access to OAuth token in scripts](/assets/img/install-powershell-module-from-azure-artifacts-feed/enable-oauth-token.png "Enable access to OAuth token in scripts")
-_Enable access to OAuth token in scripts_
+[![Enable access to OAuth token in scripts](/assets/img/install-powershell-module-from-azure-artifacts-feed/enable-oauth-token.png "Enable access to OAuth token in scripts")
+_Enable access to OAuth token in scripts_](/assets/img/install-powershell-module-from-azure-artifacts-feed/enable-oauth-token.png){:target="_blank"}
 
 ### 2. Create PowerShell Step
 
 This is a very straightforward step - just add PowerShell task and select to use PowerShell Core (cross-platform version of PowerShell).
 
-![Create PowerShell step](/assets/img/install-powershell-module-from-azure-artifacts-feed/create-powershell-task.png "Create PowerShell step")
-_Create PowerShell step_
+[![Create PowerShell step](/assets/img/install-powershell-module-from-azure-artifacts-feed/create-powershell-task.png "Create PowerShell step")
+_Create PowerShell step_](/assets/img/install-powershell-module-from-azure-artifacts-feed/create-powershell-task.png){:target="_blank"}
 
 ### 3. Register Package Source & Install Module
 

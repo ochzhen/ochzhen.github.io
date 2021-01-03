@@ -111,7 +111,7 @@ Just upload your script to `src` container, as a result, we will have URL like t
 _Uploaded custom script_](/assets/img/azure-custom-script-extension-windows/uploaded-custom-script.png){:target="_blank"}
 
 
-## Our Virtual Machine Scale Set
+## About Our Virtual Machine Scale Set
 
 Just a few notes about our sample VMSS to be on the same page:
 
