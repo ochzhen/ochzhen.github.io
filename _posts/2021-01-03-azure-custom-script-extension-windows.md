@@ -15,7 +15,7 @@ In this post we are going to do the following:
 - Retrieve script file from storage account using SAS token or Managed Identity
 - Troubleshoot extension installation on VM instance by connecting via RDP
 
-**Table of Contents:**
+**Table Of Contents:**
 * TOC
 {:toc}
 
@@ -115,7 +115,7 @@ _Uploaded custom script_](/assets/img/azure-custom-script-extension-windows/uplo
 
 Just a few notes about our sample VMSS to be on the same page:
 
-- Scale set name is `vmss-contoso`
+- Scale set name is `vmss-contoso`, image is 2019-Datacenter
 - Very simple VMSS with 3 instances, probably the cheapest SKU, created through Azure Portal
 - Upgrade policy is `Automatic` - with this setting instances will upgrade to the latest model immediately
 - Has a load balancer set up - we'll use its public IP to RDP to the instances for troubleshooting
@@ -131,7 +131,7 @@ _VMSS Networking_](/assets/img/azure-custom-script-extension-windows/vmss-networ
 
 ## Adding Extension To ARM Template
 
-Here comes the most interesting and important part, we are going to add our extension in ARM template. This [documentation page](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows) contains a lot of useful information including extension schema.
+Here comes the most interesting and important part, we are going to add our extension in [ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview){:target="_blank"}. This [documentation page](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows){:target="_blank"} contains a lot of useful information including extension schema.
 
 We can add extension via ARM template in three ways:
 
@@ -144,7 +144,7 @@ In the next sections we are going to cover only first two since the last option 
 **Notes about ARM template fields** (more information under documentation link above):
 
 - `name` - should consist of two sections because extension is a nested resource: VMSS name and extension name
-- `fileUris` - our script link with SAS token, however, SAS token is not needed if we use managed identity [link to managed identity section]
+- `fileUris` - our script link with SAS token, however, SAS token is not needed if we [use managed identity](#using-managed-identity-instead-of-sas)
 - `timestamp` - if custom script extension is already installed, then changing timestamp value triggers rerun of the script
 - `commandToExecute` - in our case we invoke powershell command and pass custom parameter
 

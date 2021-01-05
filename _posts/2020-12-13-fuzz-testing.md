@@ -8,6 +8,7 @@ Recently, I was interested in learning more about Fuzz Testing, such things as w
 
 After going through different resources I decided to document my personal findings in a form of this post.
 
+**Table Of Contents:**
 * TOC
 {:toc}
 
