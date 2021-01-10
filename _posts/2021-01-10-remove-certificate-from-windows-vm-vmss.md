@@ -10,7 +10,7 @@ This post builds on top of the post about [Azure Custom Script Extension](/blog/
 
 We will use ARM template to define and apply the extension but feel free to use Azure PowerShell as well, you just need to send the settings we specify in ARM template through PowerShell.
 
-**Table Of Contents:**
+**Contents:**
 * TOC
 {:toc}
 

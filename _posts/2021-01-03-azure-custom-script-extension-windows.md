@@ -15,7 +15,7 @@ In this post we are going to do the following:
 - Retrieve script file from storage account using SAS token or Managed Identity
 - Troubleshoot extension installation on VM instance by connecting via RDP
 
-**Table Of Contents:**
+**Contents:**
 * TOC
 {:toc}
 
@@ -310,7 +310,7 @@ _Assigned Role to Managed Identity_](/assets/img/azure-custom-script-extension-w
 
 ### 3. Add managedIdentity Field to ARM Template
 
-Here we just need to add `"managedIdentity": {}` as part of `protectedSettings`. The value is empty JSON object because we use system assigned managed identity. For user assigned identity read [here].(https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows#property-managedidentity){:target="_blank"}
+Here we just need to add `"managedIdentity": {}` as part of `protectedSettings`. The value is empty JSON object because we use system assigned managed identity. About user assigned identity read [here](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows#property-managedidentity){:target="_blank"}.
 
 **NOTE:** Our script URI doesn't need SAS token anymore, see example below.
 

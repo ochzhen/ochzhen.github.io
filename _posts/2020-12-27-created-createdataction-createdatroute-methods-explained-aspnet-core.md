@@ -6,7 +6,7 @@ tags: aspnet-core
 
 In this post we will discuss `Created`, `CreatedAtAction` and `CreatedAtRoute` methods available in ASP.NET Core controllers and, in particular, answer such questions as what it is and why it is needed, how do these methods work and how to use them, how to pass parameters and create link for an action in a different controller, examples how to use different overloaded versions, common errors we might encounter and how to resolve them.
 
-**Table Of Contents:**
+**Contents:**
 * TOC
 {:toc}
 
