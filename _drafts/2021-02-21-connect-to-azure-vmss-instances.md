@@ -14,6 +14,9 @@ We will cover the following approaches:
 
 **NOTE:** We will mainly discuss networking part but not detailed steps how to use RDP or SSH, there are already a lot of great articles on these topics. Also, throughout the post most examples are for RDP and 3389 port, however, for SSH case it is mainly just using port 22 instead of 3389.
 
+**Contents:**
+* TOC
+{:toc}
 
 ## Connecting Directly To VMs
 

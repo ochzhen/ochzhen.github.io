@@ -44,7 +44,7 @@ _Create PowerShell step_](/assets/img/install-powershell-module-from-azure-artif
 
 Now we need to add code for package source registration and module installation. Comments to the code are provided under the snippet.
 
-```
+```powershell
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 #1
 
 $token = $env:SYSTEM_ACCESSTOKEN | ConvertTo-SecureString -AsPlainText -Force #2

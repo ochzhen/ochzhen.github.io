@@ -175,9 +175,8 @@ Another good method to view resource state is to use [`az resource show` command
 - Compared to the previous method this one doesn't return additional properties related to ARM template when using 'Full' option and could differ in terms of other fields. But most likely it won't be critical for you use case.
 - Need to pass `--id` and optionally `--api-version` arguments, `id` can be found under `Properties` tab of resource page in Azure Portal
 
-```
-az resource show --id /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{storageAccountName} --api-v
-ersion 2018-04-01
+```bash
+az resource show --id /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{storageAccountName} --api-version 2018-04-01
 ```
 
 For example, for a storage account you'll get something similar to the following:

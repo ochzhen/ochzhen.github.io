@@ -49,7 +49,7 @@ _Shared Access Signature_](/assets/img/azure-custom-script-extension-windows/sha
 
 Below you can find a boilerplate code for a PowerShell script which accepts parameter, runs some code wrapped into a try-catch block, writes logs to a file and uploads it to our blob storage.
 
-```
+```powershell
 param (
     [string] $SomeParameter
 )

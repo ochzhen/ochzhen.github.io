@@ -32,7 +32,7 @@ In this section we are going to create a script with the code to delete certific
 
 **NOTE:** You can write and ship logs to a storage account as described in [this section of a related post](/blog/azure-custom-script-extension-windows#writing-script-with-logs).
 
-```
+```powershell
 param (
     [string] $Thumbprint
 )
