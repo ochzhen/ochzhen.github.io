@@ -6,7 +6,7 @@ tags: azure-devops
 
 It is common to have an ARM template deployment step as part of a pipeline/release in Azure DevOps. During this step resources are created or modified and we often want to export their names, URIs, IP addresses, keys for further use in the pipeline.
 
-In this short article, we will take a look at how to parse [outputs from an ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-outputs?tabs=azure-powershell){:target="_blank"} using PowerShell and Bash for both YAML-based and Classic release pipelines.
+In this short article, we will take a look at how to parse [outputs from an ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-outputs?tabs=azure-powershell){:target="_blank"} using **PowerShell** and **Bash** for both **YAML-based** and **Classic release pipelines**.
 
 **Contents:**
 * TOC
@@ -54,8 +54,8 @@ We will use this functionality to set variables for both YAML pipelines and Clas
 
 This decision is completely up to you, in this post we will look how to do it with either of them. But here are just a few notes:
 
-- In examples we use pwsh - [PowerShell Core](https://github.com/PowerShell/PowerShell){:target="_blank"} which is the cross-platform version
-- Microsoft-hosted agents usually have both pwsh and bash installed on both windows and linux agents, more information [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#software){:target="_blank"}
+- In examples we use **pwsh** - [PowerShell Core](https://github.com/PowerShell/PowerShell){:target="_blank"} which is the cross-platform version
+- Microsoft-hosted agents usually have both **pwsh** and **bash** installed on both windows and linux agents, more information [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#software){:target="_blank"}
 - If your agents are self-hosted, then choice is simple, just use what's available
 
 
@@ -87,7 +87,7 @@ Below is shown a sample ARM template deployment step, and its outputs we would l
 
 ### PowerShell
 
-So, this is the actual part where we parse output values. Note that the second step just logs the parsed value, so won't probably need it.
+So, this is the actual part where we parse output values. Note that the second step just logs the parsed value, so you won't probably need it.
 
 - [ConvertFrom-Json](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1){:target="_blank"} is used to parse JSON
 - `armOutputs` object is passed as `ARM_OUTPUTS` environment variable
