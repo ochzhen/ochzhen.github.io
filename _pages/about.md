@@ -36,5 +36,5 @@ In my career I seek challenges and new experience, it's important for me to be u
 
 I would be happy to connect with you, so feel free to reach out on LinkedIn with a message or question!
 
-- LinkedIn: [https://www.linkedin.com/in/ochzhen/](https://www.linkedin.com/in/ochzhen/){:target="_blank"}
+- LinkedIn: [https://www.linkedin.com/in/ochzhen](https://www.linkedin.com/in/ochzhen){:target="_blank"}
 - GitHub: [https://github.com/ochzhen](https://github.com/ochzhen){:target="_blank"}
