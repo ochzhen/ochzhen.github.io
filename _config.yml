@@ -1,6 +1,6 @@
 # Site settings
 title:          ochzhen
-description:    "Personal blog"
+description:    "Oleksandr (Alex) Chzhen's personal blog"
 url:            "https://ochzhen.com"
 
 # Google Analytics
@@ -32,9 +32,13 @@ plugins:
 # Permalinks
 collections:
   posts:
-    permalink: /blog/:title
+    permalink:  /blog/:title
+  projects:
+    permalink:  /projects/:name
+    output:     true
 
 paginate:  5
+paginate_path: "/blog/page:num"
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock ]

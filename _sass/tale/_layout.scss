@@ -60,6 +60,12 @@ footer,
     }
   }
 
+  @media (max-width: 600px) {
+    li {
+      padding: 0 1rem 0 0;
+    }
+  }
+
   a {
     color: $default-color;
     font-family: $sans-serif;

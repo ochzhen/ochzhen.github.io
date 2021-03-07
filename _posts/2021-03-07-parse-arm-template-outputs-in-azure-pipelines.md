@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Parse ARM Template JSON Outputs In Azure Pipelines"
-tags: azure-devops
+tags: azure-devops arm-template
 ---
 
 It is common to have an ARM template deployment step as part of a pipeline/release in Azure DevOps. During this step resources are created or modified and we often want to export their names, URIs, IP addresses, keys for further use in the pipeline.

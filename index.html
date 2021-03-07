@@ -1,4 +1,46 @@
 ---
-layout: home
+layout: default
 title: Home
 ---
+
+
+<div class="post">
+
+  <h1 class="post-title">Hello</h1>
+  <div class="post-line"></div>
+
+  <p>Welcome to my small blog where I write about things that I'm interested in and what I learn along the way.</p>
+
+  <p>Here are pages that might be interesting:</p>
+
+  <ul>
+    <li><a href="/blog">Posts</a> - the list of all posts in chronological order from newest to oldest.</li>
+    <li><a href="/tags">Tags</a> - posts grouped by tags, for example, <i>azure</i> or <i>aspnet-core</i>.</li>
+    <li><a href="/about">About</a> - a bit about this blog and me, plus contact info if you are interested.</li>
+  </ul>
+
+  <p>Thanks for reading! I hope you will find something useful for you.</p>
+</div>
+
+<div class="catalogue">
+  {% for post in site.posts limit:3 %}
+    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+      <div>
+        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+        <h2 class="catalogue-title">{{ post.title }}</h2>
+        <div class="catalogue-line"></div>
+
+        <p>
+          {{ post.content | strip_html | truncatewords: 30 }}
+        </p>
+
+      </div>
+    </a>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  <a href="#" class="top">&#8593; Top &#8593;</a>
+</div>
+
+

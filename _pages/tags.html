@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Tags"
-permalink: /tags
+title: Tags
+permalink: /tags/
 ---
 
 <div class="tags">
   <div class="tags-header">
-    <h2 class="tags-header-title">{{ page.title }}</h2>
+    <h1 class="tags-header-title">{{ page.title }}</h1>
     <div class="tags-header-line"></div>
   </div>
   {% assign sortedTags = site.tags | sort %}
@@ -51,4 +51,8 @@ permalink: /tags
     {% endfor %}
   </div>
   {% endfor %}
+</div>
+
+<div class="pagination" style="margin-top: 2rem">
+  <a href="#" class="top">&#8593; Top &#8593;</a>
 </div>

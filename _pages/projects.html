@@ -1,0 +1,27 @@
+---
+layout: default
+title: Projects
+permalink: /projects
+---
+
+<div class="tags-header" style="margin-top: 0.5rem">
+  <h1 class="tags-header-title">{{ page.title }}</h1>
+  <div class="tags-header-line" style="margin-bottom: 0.5rem"></div>
+</div>
+
+<div class="catalogue">
+  {% assign sorted = site.projects | sort: 'date' | reverse %}
+  {% for project in sorted %}
+    <a href="{{ project.url | prepend: site.baseurl }}" class="catalogue-item">
+      <div>
+        <h2 class="catalogue-title">{{ project.title }}</h2>
+        <div class="catalogue-line"></div>
+
+        <p>
+          {{ project.content | strip_html | truncatewords: 30 }}
+        </p>
+
+      </div>
+    </a>
+  {% endfor %}
+</div>
