@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-Hello! My name is Alex, I'm a software engineer at Microsoft, living in Vancouver and working on [Azure Communication Services](https://azure.microsoft.com/en-ca/services/communication-services/){:target="_blank"} platform.
+Hello! My name is Alex (full name is Oleksandr Chzhen), I'm a software engineer at Microsoft, living in Vancouver and working on [Azure Communication Services](https://azure.microsoft.com/en-ca/services/communication-services/){:target="_blank"} platform.
 
 ## About Blog
 
