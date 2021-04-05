@@ -4,10 +4,6 @@ title:  "Switch Case When In C# Statement And Expression"
 tags: C#
 ---
 
-**Contents:**
-* TOC
-{:toc}
-
 
 In this post we are going to take a look at a relatively new feature - `when` keyword in the context of switch statement and switch expression.
 
@@ -20,6 +16,9 @@ In particular, the topics we will discuss and also C# versions when they were in
 
 In the following sections we will explore different aspects of the functionality mentioned above as well as a number of use cases and examples.
 
+**Contents:**
+* TOC
+{:toc}
 
 ## Switch Statement and "when" keyword
 
