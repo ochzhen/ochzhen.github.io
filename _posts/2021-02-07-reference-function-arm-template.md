@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reference Function With Examples - ARM Template"
+title:  "Reference() Function Explained With Examples - ARM Template"
 tags: azure arm-template
 ---
 
