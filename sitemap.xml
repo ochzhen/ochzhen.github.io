@@ -4,19 +4,40 @@
     <loc>https://ochzhen.com/</loc>
   </url>
   <url>
-    <loc>https://ochzhen.com/blog/how-to-get-app-configuration-connectionString-arm</loc>
+    <loc>https://ochzhen.com/blog/</loc>
   </url>
   <url>
     <loc>https://ochzhen.com/blog/switch-case-when-in-csharp</loc>
   </url>
   <url>
-    <loc>https://ochzhen.com/blog/</loc>
+    <loc>https://ochzhen.com/blog/azure-bicep-parameters</loc>
   </url>
   <url>
-    <loc>https://ochzhen.com/blog/parse-arm-template-outputs-in-azure-pipelines</loc>
+    <loc>https://ochzhen.com/blog/az-powershell-module-in-azure-functions</loc>
+      <image:image>
+        <image:loc>https://ochzhen.com/assets/img/az-powershell-module-in-azure-functions/managed-identity.png</image:loc>
+        <image:title>System-assigned managed identity</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://ochzhen.com/assets/img/az-powershell-module-in-azure-functions/portal-app-files.png</image:loc>
+        <image:title>Editing app files in portal</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://ochzhen.com/assets/img/az-powershell-module-in-azure-functions/portal-code-test.png</image:loc>
+        <image:title>Editing function files in portal</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://ochzhen.com/blog/how-to-get-app-configuration-connectionString-arm</loc>
   </url>
   <url>
     <loc>https://ochzhen.com/about/</loc>
+  </url>
+  <url>
+    <loc>https://ochzhen.com/tags/</loc>
+  </url>
+  <url>
+    <loc>https://ochzhen.com/blog/parse-arm-template-outputs-in-azure-pipelines</loc>
   </url>
   <url>
     <loc>https://ochzhen.com/blog/reference-function-arm-template</loc>
@@ -28,9 +49,6 @@
         <image:loc>https://ochzhen.com/assets/img/reference-function-arm-templates/resource-explorer.png</image:loc>
         <image:title>Resource Explorer</image:title>
       </image:image>
-  </url>
-  <url>
-    <loc>https://ochzhen.com/tags/</loc>
   </url>
   <url>
     <loc>https://ochzhen.com/blog/connect-to-azure-vmss-instances</loc>
@@ -62,21 +80,6 @@
       <image:image>
         <image:loc>https://ochzhen.com/assets/img/install-powershell-module-from-azure-artifacts-feed/create-powershell-task.png</image:loc>
         <image:title>Create PowerShell step</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://ochzhen.com/blog/azure-custom-script-extension-linux</loc>
-      <image:image>
-        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/managed-identity.png</image:loc>
-        <image:title>Managed identity</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/assigned-identity-to-vmss.png</image:loc>
-        <image:title>VMSS with assigned managed identity</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/storage-account-permissions.png</image:loc>
-        <image:title>Storage account permissions</image:title>
       </image:image>
   </url>
   <url>
@@ -128,6 +131,21 @@
   </url>
   <url>
     <loc>https://ochzhen.com/blog/fuzz-testing</loc>
+  </url>
+  <url>
+    <loc>https://ochzhen.com/blog/azure-custom-script-extension-linux</loc>
+      <image:image>
+        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/managed-identity.png</image:loc>
+        <image:title>Managed identity</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/assigned-identity-to-vmss.png</image:loc>
+        <image:title>VMSS with assigned managed identity</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/storage-account-permissions.png</image:loc>
+        <image:title>Storage account permissions</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://ochzhen.com/blog/manual-trigger-in-yaml-azure-pipelines</loc>
