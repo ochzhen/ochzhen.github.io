@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Manual Trigger In Multi-Stage YAML Pipeline"
+title:  "Manual Trigger In Multi-Stage YAML Pipeline - Azure DevOps"
 tags: azure azure-devops ci/cd
 ---
 

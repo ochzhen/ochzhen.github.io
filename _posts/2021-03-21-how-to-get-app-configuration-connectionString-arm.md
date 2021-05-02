@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How To Get App Configuration Connection String In ARM Template"
+title:  "How To Get Azure App Configuration Connection String In ARM Template"
 tags: arm-template
 ---
 
