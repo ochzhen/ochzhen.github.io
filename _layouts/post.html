@@ -6,13 +6,15 @@ author: "Alex"
 <div class="post">
   <div class="post-info">
     <span>Written by</span>
-    {% if page.author %}
-      {{ page.author }}
-    {% elsif layout.author %}
-      {{ layout.author }}
-    {% else %}
-      {{ site.author.name }}
-    {% endif %}
+    <a href="/about">
+      {% if page.author %}
+        {{ page.author }}
+      {% elsif layout.author %}
+        {{ layout.author }}
+      {% else %}
+        {{ site.author.name }}
+      {% endif %}
+    </a>
 
     <!-- {% if page.date %}
       <br>

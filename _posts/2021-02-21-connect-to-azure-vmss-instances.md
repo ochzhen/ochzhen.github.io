@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How To Connect To Azure VMSS Instances Using RDP/SSH"
+title:  "How To RDP/SSH Into Azure VMSS VM Instances"
 tags: azure
 ---
 
@@ -43,7 +43,7 @@ When creating a resource through Azure Portal, these inbound NAT pool and rules 
 
 Below is an example how it looks like for a load balancer for VMSS with two instances. For instance, if we open one of the rules we'll see a rule which states that all requests over TCP which arrive at IP ***20.69.134.228*** at port ***50002*** should be forwarded to VMSS ***instance 2*** at port ***3389*** (or 22 for SSH).
 
-[![Inbound NAT rules](/assets/img/connect-to-azure-vmss-instances-0d843/inbound-nat-rules-portal.png "Inbound NAT rules") _Inbound NAT rules_](/assets/img/connect-to-azure-vmss-instances-0d843/inbound-nat-rules-portal.png){:target="_blank"}
+[![Inbound NAT rules](/assets/img/connect-to-azure-vmss-instances/inbound-nat-rules-portal.png "Inbound NAT rules") _Inbound NAT rules_](/assets/img/connect-to-azure-vmss-instances/inbound-nat-rules-portal.png){:target="_blank"}
 
 #### ARM Templates View
 
@@ -128,7 +128,7 @@ On the screenshot below we can see a rule that allows connections to the 3389 po
 
 **NOTE:** The warning sign is displayed because RDP port is exposed to the Internet which is not secure.
 
-[![VMSS network security group rules](/assets/img/connect-to-azure-vmss-instances-0d843/nsg-rules.png "VMSS network security group rules") _VMSS network security group rules_](/assets/img/connect-to-azure-vmss-instances-0d843/nsg-rules.png){:target="_blank"}
+[![VMSS network security group rules](/assets/img/connect-to-azure-vmss-instances/nsg-rules.png "VMSS network security group rules") _VMSS network security group rules_](/assets/img/connect-to-azure-vmss-instances/nsg-rules.png){:target="_blank"}
 
 ### Establishing Connection
 

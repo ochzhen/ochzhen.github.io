@@ -35,11 +35,11 @@
   <url>
     <loc>https://ochzhen.com/blog/connect-to-azure-vmss-instances</loc>
       <image:image>
-        <image:loc>https://ochzhen.com/assets/img/connect-to-azure-vmss-instances-0d843/inbound-nat-rules-portal.png</image:loc>
+        <image:loc>https://ochzhen.com/assets/img/connect-to-azure-vmss-instances/inbound-nat-rules-portal.png</image:loc>
         <image:title>Inbound NAT rules</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://ochzhen.com/assets/img/connect-to-azure-vmss-instances-0d843/nsg-rules.png</image:loc>
+        <image:loc>https://ochzhen.com/assets/img/connect-to-azure-vmss-instances/nsg-rules.png</image:loc>
         <image:title>VMSS network security group rules</image:title>
       </image:image>
   </url>

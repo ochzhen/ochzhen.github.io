@@ -28,7 +28,7 @@ I believe in the idea of a growth mindset and that we all can learn and improve.
 
 I studied organic chemistry (bachelor) and project management (master) during my time in the university in Ukraine. I consider myself being lucky for not having a straightforward path to software engineering which taught me some valuable lessons.
 
-I started working full time as a software engineer in 2017 during my last year of bachelor's degree and continued through my master's degree. Balancing study, work, career and personal life was challenging but very fun and productive.
+I started working full time as a software engineer in 2017 during my last year of bachelor's degree and continued through my master's degree. Balancing study, work, career, and personal life was challenging but very fun and productive.
 
 In my career I seek challenges and new experience, it's important for me to be useful and deliver value. In addition to that, I believe that friendly and safe work environment is a prerequisite for team's high performance.
 
