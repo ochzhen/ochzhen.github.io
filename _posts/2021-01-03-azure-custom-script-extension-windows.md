@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Azure Custom Script Extension On Windows VM and VMSS With Logs"
-tags: azure vm extension powershell
+tags: virtual-machine powershell
 ---
 
 Sometimes it is very useful to be able to run a script on a virtual machine. Luckily, this can be achieved using [Custom Script Extension](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows){:target="_blank"}. Its use cases include any configuration or management tasks, for example, software installation and configuration, certificate removal, etc.

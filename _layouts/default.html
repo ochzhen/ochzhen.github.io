@@ -16,7 +16,11 @@
     <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
     <script>
       anchors.options = {
-        placement: 'left'
+        {% if page.anchor_placement == 'right' %}
+          placement: 'right'
+        {% else %}
+          placement: 'left'
+        {% endif %}
       };
       anchors.add();
     </script>

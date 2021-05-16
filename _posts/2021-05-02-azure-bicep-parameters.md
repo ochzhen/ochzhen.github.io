@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Parameters In Azure Bicep - Ultimate Guide With Examples"
-tags: bicep arm-template
+tags: bicep
 ---
 
 In this post I would like to gather useful information that will help easily get started with parameters in Bicep language.

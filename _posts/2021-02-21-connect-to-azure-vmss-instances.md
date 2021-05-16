@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How To RDP/SSH Into Azure VMSS VM Instances"
-tags: azure
+tags: virtual-machine
 ---
 
 In this post we will review how to connect to Virtual Machine Scale Set instances using RDP for Windows and SSH for Linux.

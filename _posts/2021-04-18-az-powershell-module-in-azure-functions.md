@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Use Azure PowerShell Module in Azure Functions - Quick Guide"
-tags: azure powershell
+tags: azure-function powershell
 ---
 
 

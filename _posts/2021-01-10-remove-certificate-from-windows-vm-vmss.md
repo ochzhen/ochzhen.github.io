@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How To Remove Certificate From Windows VM/VMSS Using Custom Script Extension"
-tags: azure vm extension powershell
+tags: virtual-machine powershell
 ---
 
 For whatever reason we may want to remove a certificate from virtual machines. It could be both Azure Virtual Machines or Virtual Machine Scale Sets, actually, the steps are similar.

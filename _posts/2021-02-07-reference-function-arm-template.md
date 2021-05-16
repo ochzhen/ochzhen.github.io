@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reference() Function Explained With Examples - ARM Template"
-tags: azure arm-template
+tags: arm-template
 ---
 
 In this post, we will review `reference()` function which often comes handy when working with ARM templates. This function allows to retrieving runtime state of a resource which contains useful information such as URIs, names or other settings.

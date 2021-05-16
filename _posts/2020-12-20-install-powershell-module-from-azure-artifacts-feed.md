@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Install PowerShell Module From Azure Artifacts Feed In CI/CD Pipeline"
-tags: azure azure-devops powershell nuget
+tags: azure-devops powershell
 ---
 
 In this post we will learn how to install PowerShell module in build/release pipeline from private feed in Azure DevOps **_without_** using Personal Access Tokens (PAT). 

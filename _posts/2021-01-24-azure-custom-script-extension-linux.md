@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Azure Custom Script Extension On Linux VM and VMSS"
-tags: azure vm extension
+tags: virtual-machine
 ---
 
 Recently, there was a [post about Custom Script Extension for Windows](/blog/azure-custom-script-extension-windows), however, there's a similar functionality for Linux VMs. I was interested in it and decided to write a bit about this extension as well.
