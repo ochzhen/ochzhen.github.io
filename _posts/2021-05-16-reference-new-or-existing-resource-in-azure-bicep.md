@@ -10,13 +10,22 @@ Not surprisingly, we often want similar capabilities while working with Azure Bi
 
 **Referencing existing resources in Bicep is achieved by declaring a symbolic name for the existing resource and using it to retrieve needed properties. ARM template `reference` function can also be used, however, it is less recommended.**
 
-So, Bicep not only allows using the existing `reference` function but provides even more convenient and clear syntax to achieve that.
+As we will see, Bicep not only allows using the existing `reference` function but provides even more convenient and clear syntax to achieve that.
 
-In this post we will discuss how to reference resources deployed in the **same or different resource group**, **same or different subscription**, touch on referencing **child resources** and resources deployed as part of a **module**.
 
 **Contents:**
 * TOC
 {:toc}
+
+
+## Overview
+
+The first two sections cover important information which will be used throughout the post,
+[symbolic names](#symbolic-name-and-state-object-of-a-resource) along with ["existing" keyword and "scope" property](#keyword-existing-and-scope-property) allow working with resources not defined in the same template and also enable advanced scenarios which are discussed later.
+
+The following sections cover different use cases of referencing resources deployed in the [same](#reference-existing-resource-in-the-same-resource-group) or [different](#reference-existing-resource-in-a-different-resource-group) *resource group*, same or [different](#reference-existing-resource-in-a-different-resource-group-and-subscription) *subscription*, and also touch on referencing [child resources](#reference-existing-child-resource).
+
+The last section is about [using the well-known `reference` function](#old-way-using-reference-function) in Bicep, just in case you really want to.
 
 
 ## Symbolic Name and State Object of a Resource
