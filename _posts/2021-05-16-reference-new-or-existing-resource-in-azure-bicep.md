@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reference New Or Existing Resource In Azure Bicep"
-tags: bicep
+tags: azure-bicep
 ---
 
 In a traditional ARM template [reference function](/blog/reference-function-arm-template) provides capability to retrieve runtime state object of a resource. This might be useful to get FQDNs, properties, managed identity info.
@@ -299,6 +299,7 @@ output blobEndpoint string = stg.properties.primaryEndpoints.blob
 ## Related Posts
 - [Parameters In Azure Bicep - Ultimate Guide With Examples](/blog/azure-bicep-parameters)
 - [Reference() Function Explained With Examples - ARM Template](/blog/reference-function-arm-template)
+- [Variables In Azure Bicep - From Basics To Advanced](/blog/azure-bicep-variables)
 
 ## Useful Links
 - [Bicep Spec: Resources](https://github.com/Azure/bicep/blob/main/docs/spec/resources.md){:target="_blank"}

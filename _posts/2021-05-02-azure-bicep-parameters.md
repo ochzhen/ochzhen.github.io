@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Parameters In Azure Bicep - Ultimate Guide With Examples"
-tags: bicep
+tags: azure-bicep
 ---
 
 In this post I would like to gather useful information that will help easily get started with parameters in Bicep language.
@@ -621,6 +621,12 @@ In the following example we allow only predefined combinations of settings by sp
 ])
 param storageAccountSettings object
 ```
+
+## Related Posts
+
+- [Variables In Azure Bicep - From Basics To Advanced](/blog/azure-bicep-variables)
+- [Reference New Or Existing Resource In Azure Bicep](/blog/reference-new-or-existing-resource-in-azure-bicep)
+- [Reference() Function Explained With Examples - ARM Template](/blog/reference-function-arm-template)
 
 ## Useful Links
 
