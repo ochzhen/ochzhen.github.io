@@ -2,18 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://ochzhen.com/</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://ochzhen.com/blog/</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://ochzhen.com/blog/switch-case-when-in-csharp</loc>
+    <loc>https://ochzhen.com/blog/azure-bicep-variables</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ochzhen.com/blog/azure-bicep-parameters</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ochzhen.com/blog/reference-new-or-existing-resource-in-azure-bicep</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ochzhen.com/about/</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ochzhen.com/tags/</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ochzhen.com/blog/reference-function-arm-template</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://ochzhen.com/assets/img/reference-function-arm-templates/deployment-output.png</image:loc>
+        <image:title>Template deployment outputs</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://ochzhen.com/assets/img/reference-function-arm-templates/resource-explorer.png</image:loc>
+        <image:title>Resource Explorer</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://ochzhen.com/blog/switch-case-when-in-csharp</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ochzhen.com/blog/az-powershell-module-in-azure-functions</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://ochzhen.com/assets/img/az-powershell-module-in-azure-functions/managed-identity.png</image:loc>
         <image:title>System-assigned managed identity</image:title>
@@ -29,29 +82,21 @@
   </url>
   <url>
     <loc>https://ochzhen.com/blog/how-to-get-app-configuration-connectionString-arm</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ochzhen.com/about/</loc>
-  </url>
-  <url>
-    <loc>https://ochzhen.com/tags/</loc>
-  </url>
-  <url>
-    <loc>https://ochzhen.com/blog/parse-arm-template-outputs-in-azure-pipelines</loc>
-  </url>
-  <url>
-    <loc>https://ochzhen.com/blog/reference-function-arm-template</loc>
-      <image:image>
-        <image:loc>https://ochzhen.com/assets/img/reference-function-arm-templates/deployment-output.png</image:loc>
-        <image:title>Template deployment outputs</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://ochzhen.com/assets/img/reference-function-arm-templates/resource-explorer.png</image:loc>
-        <image:title>Resource Explorer</image:title>
-      </image:image>
+    <loc>https://ochzhen.com/blog/created-createdataction-createdatroute-methods-explained-aspnet-core</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ochzhen.com/blog/connect-to-azure-vmss-instances</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://ochzhen.com/assets/img/connect-to-azure-vmss-instances/inbound-nat-rules-portal.png</image:loc>
         <image:title>Inbound NAT rules</image:title>
@@ -62,17 +107,26 @@
       </image:image>
   </url>
   <url>
-    <loc>https://ochzhen.com/blog/created-createdataction-createdatroute-methods-explained-aspnet-core</loc>
-  </url>
-  <url>
     <loc>https://ochzhen.com/blog/remove-certificate-from-windows-vm-vmss</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://ochzhen.com/assets/img/remove-certificate-from-windows-vm-vmss/generate-sas-for-script.png</image:loc>
         <image:title>Generating SAS for script file</image:title>
       </image:image>
   </url>
   <url>
+    <loc>https://ochzhen.com/blog/parse-arm-template-outputs-in-azure-pipelines</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://ochzhen.com/blog/install-powershell-module-from-azure-artifacts-feed</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://ochzhen.com/assets/img/install-powershell-module-from-azure-artifacts-feed/enable-oauth-token.png</image:loc>
         <image:title>Enable access to OAuth token in scripts</image:title>
@@ -83,7 +137,28 @@
       </image:image>
   </url>
   <url>
+    <loc>https://ochzhen.com/blog/azure-custom-script-extension-linux</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/managed-identity.png</image:loc>
+        <image:title>Managed identity</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/assigned-identity-to-vmss.png</image:loc>
+        <image:title>VMSS with assigned managed identity</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/storage-account-permissions.png</image:loc>
+        <image:title>Storage account permissions</image:title>
+      </image:image>
+  </url>
+  <url>
     <loc>https://ochzhen.com/blog/azure-custom-script-extension-windows</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-windows/storage-account-containers.png</image:loc>
         <image:title>Storage Account Containers</image:title>
@@ -131,24 +206,15 @@
   </url>
   <url>
     <loc>https://ochzhen.com/blog/fuzz-testing</loc>
-  </url>
-  <url>
-    <loc>https://ochzhen.com/blog/azure-custom-script-extension-linux</loc>
-      <image:image>
-        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/managed-identity.png</image:loc>
-        <image:title>Managed identity</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/assigned-identity-to-vmss.png</image:loc>
-        <image:title>VMSS with assigned managed identity</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://ochzhen.com/assets/img/azure-custom-script-extension-linux/storage-account-permissions.png</image:loc>
-        <image:title>Storage account permissions</image:title>
-      </image:image>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ochzhen.com/blog/manual-trigger-in-yaml-azure-pipelines</loc>
+    <lastmod>2021-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://ochzhen.com/assets/img/manual-trigger-in-yaml-azure-pipelines/stopped-pipeline.png</image:loc>
         <image:title>Pipeline stopped before TEST stage</image:title>
