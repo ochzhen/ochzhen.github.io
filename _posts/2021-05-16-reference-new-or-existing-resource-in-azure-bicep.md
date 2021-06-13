@@ -298,8 +298,10 @@ output blobEndpoint string = stg.properties.primaryEndpoints.blob
 
 ## Related Posts
 - [Parameters In Azure Bicep - Ultimate Guide With Examples](/blog/azure-bicep-parameters)
-- [Reference() Function Explained With Examples - ARM Template](/blog/reference-function-arm-template)
 - [Variables In Azure Bicep - From Basics To Advanced](/blog/azure-bicep-variables)
+- [Child Resources In Azure Bicep - 3 Ways To Declare, Loops, Conditions](/blog/child-resources-in-azure-bicep)
+- [Reference() Function Explained With Examples - ARM Template](/blog/reference-function-arm-template)
+
 
 ## Useful Links
 - [Bicep Spec: Resources](https://github.com/Azure/bicep/blob/main/docs/spec/resources.md){:target="_blank"}
