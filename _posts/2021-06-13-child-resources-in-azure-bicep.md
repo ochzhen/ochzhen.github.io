@@ -26,7 +26,7 @@ The first section [3 Ways To Declare Child Resources](#3-ways-to-declare-child-r
 
 If we choose to define resource within its parent, then [Accessing Nested Resource With :: Operator](#accessing-nested-resource-with--operator) comes in handy when we want to get some properties of the nested resource by its symbolic name.
 
-Sometimes the decision whether to deploy a particular resource is based on some condition evaluated during the runtime. This condition functionality has slightly different behavior depending on the way a child resource is declared, this is covered in [Conditional Deployment](#conditional-deployment) section.
+Sometimes the decision whether to deploy a particular resource is based on some condition. This condition functionality has slightly different behavior depending on the way a child resource is declared, this is covered in [Conditional Deployment](#conditional-deployment) section.
 
 [Loops: Creating Multiple Resources](#loops-creating-multiple-resources) describes how loops can be used in a combination with the approaches to declare child resource discussed in the beginning of the post.
 
@@ -165,7 +165,7 @@ output secretId string = kv::adminPwd.id
 
 ## Conditional Deployment
 
-Conditional deployment allows deciding whether a resource should be deployed based on a **condition evaluated at runtime**.
+Conditional deployment allows deciding whether a resource should be deployed based on a **condition evaluated at the start of the deployment**.
 
 For example, we can introduce a parameter which controls whether our resource will be deployed, or we can compute the condition based on the state of other resources.
 
@@ -274,7 +274,7 @@ resource secrets 'Microsoft.KeyVault/vaults/secrets@2019-09-01' = [for i in rang
 
 Let's say we want to have **multiple Key Vaults**, each having **multiple secrets**. This is not easily achievable with the approach we used above - nested loops are not supported.
 
-This is where **modules** come very handy, they allow writing elegant and easy to understand Bicep code.
+This is where **modules** come in very handy, they allow writing elegant and easy to understand Bicep code.
 
 In the resulting ARM template module will compile into nested deployments where each nested deployment deploys one vault and multiple secrets.
 
@@ -288,7 +288,9 @@ module kvs './keyvault.bicep' = [for i in range(0,2): {
     keyVaultName: 'kv-contoso-${i}'
   }
 }]
+{% endhighlight %}
 
+{% highlight tsx linenos %}
 // ========== ./keyvault.bicep file ==========
 
 param keyVaultName string
