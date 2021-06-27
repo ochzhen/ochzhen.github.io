@@ -300,6 +300,7 @@ output blobEndpoint string = stg.properties.primaryEndpoints.blob
 - [Parameters In Azure Bicep - Ultimate Guide With Examples](/blog/azure-bicep-parameters)
 - [Variables In Azure Bicep - From Basics To Advanced](/blog/azure-bicep-variables)
 - [Child Resources In Azure Bicep - 3 Ways To Declare, Loops, Conditions](/blog/child-resources-in-azure-bicep)
+- [Create Resource Group With Azure Bicep and Deploy Resources In It](/blog/create-resource-group-azure-bicep)
 - [Reference() Function Explained With Examples - ARM Template](/blog/reference-function-arm-template)
 
 

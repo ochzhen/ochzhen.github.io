@@ -4,9 +4,9 @@ title:  "Child Resources In Azure Bicep - 3 Ways To Declare, Loops, Conditions"
 tags: azure-bicep
 ---
 
-In this post we will discuss child resources in Bicep, these are the resources that exist only in the context of a parent resource. Also, sometimes they might be called nested resources.
+In this post, we will discuss child resources in Bicep, how to define them and their relationship to the parent resource, how to work with these resources in the presence of loops and conditional deployments, and also look at some examples and more advanced use cases.
 
-In other words, a child resource cannot exist without its parent. **Nesting of resources** can be arbitrarily deep as long as it is supported by the schema.
+**A child resource is a resource which exists only in the context of another resource and cannot exist without it. Child resources are sometimes called nested resources, nesting of resources can arbitrarily deep as long as it is supported by the schema.**
 
 Most likely, you've already encountered such resources in Azure. Let's take a look at some **common examples**:
 - Virtual Machine or Scale Set extensions: `Microsoft.Compute/virtualMachines/extensions`,  `Microsoft.Compute/virtualMachineScaleSets/extensions`
@@ -365,6 +365,7 @@ output containerPublicAccess string = shouldCreateContainers ? stg::blobSvc::con
 - [Parameters In Azure Bicep - Ultimate Guide With Examples](/blog/azure-bicep-parameters)
 - [Variables In Azure Bicep - From Basics To Advanced](/blog/azure-bicep-variables)
 - [Reference New Or Existing Resource In Azure Bicep](/blog/reference-new-or-existing-resource-in-azure-bicep)
+- [Create Resource Group With Azure Bicep and Deploy Resources In It](/blog/create-resource-group-azure-bicep)
 - [Reference() Function Explained With Examples - ARM Template](/blog/reference-function-arm-template)
 
 

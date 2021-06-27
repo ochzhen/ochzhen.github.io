@@ -8,13 +8,26 @@ In this post I would like to gather useful information that will help easily get
 
 **Parameters in Azure Bicep are used to pass dynamic values into a template to make it flexible and reusable. Parameter declaration may contain default value and/or constraints on input value.**
 
-Bicep is a domain-specific language which transpiles into ARM templates. In other words, it's a more convenient way to declare resources, and it works on top of ARM templates. Overview of bicep language is beyond the scope of this post.
+Bicep is a domain-specific language which transpiles into ARM templates. In other words, it's a more convenient way to declare resources, and it works on top of ARM templates. Overview of the bicep language is beyond the scope of this post.
 
 You can read the post from start to finish or use navigation to jump to the section that interests you most.
 
 **Contents:**
 * TOC
 {:toc}
+
+
+## Overview
+
+The post starts with a short discussion of a question ["Should I Use Parameters?"](#should-i-use-parameters). It summarizes several useful points about when to use and not to use parameters.
+
+Next, we talk about [declaring parameters](#declaring-parameters) and [using declared parameters](#using-declared-parameters-in-file). Additionally, we touch on how to define a parameter ([basic](#basic-case) and [advanced](#advanced-case) cases), and also some limitations and constraints associated with it ([constraints](#constraints) and [where to declare](#where-to-declare-parameters)).
+
+It is often useful to have a [default value](#default-value) for a parameter. For that, we can leverage not only [literal values](#literal-value) but also [other parameters](#another-parameter) and [functions](#functionexpression).
+
+When deploying a Bicep file, one should somehow [pass parameter values](#passing-parameters) into the main template. This can be achieved either [inline](#inline) or using a [parameter file](#parameter-file).
+
+We wrap up the post with a discussion on [decorators](#decorators-constraints-and-metadata), followed by an extensive set of examples how to work with different parameter types: [strings](#string-parameters), [integers](#integer-parameters), [booleans](#boolean-parameters), [arrays](#array-parameters), and [objects](#object-parameters).
 
 
 ## Should I Use Parameters?
@@ -627,6 +640,7 @@ param storageAccountSettings object
 - [Variables In Azure Bicep - From Basics To Advanced](/blog/azure-bicep-variables)
 - [Reference New Or Existing Resource In Azure Bicep](/blog/reference-new-or-existing-resource-in-azure-bicep)
 - [Child Resources In Azure Bicep - 3 Ways To Declare, Loops, Conditions](/blog/child-resources-in-azure-bicep)
+- [Create Resource Group With Azure Bicep and Deploy Resources In It](/blog/create-resource-group-azure-bicep)
 - [Reference() Function Explained With Examples - ARM Template](/blog/reference-function-arm-template)
 
 ## Useful Links
