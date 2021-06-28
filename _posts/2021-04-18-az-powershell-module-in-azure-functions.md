@@ -13,18 +13,28 @@ It is great that now Azure Functions can be also used for infrastructure managem
 
 **IMPORTANT:** This post is about using Az PowerShell module **inside** of an Azure Function with PowerShell runtime. It is NOT about managing Azure Functions with PowerShell.
 
-First two steps are necessary to make Az module available in the function runtime, the following optional steps go further by describing how to configure managed identity, grant permissions and connect to a subscription inside of the script.
 
 **Contents:**
 * TOC
 {:toc}
 
 
+## Overview
+
+Using PowerShell Az module inside of Azure Functions is simple to achieve. There are two required steps that we need to do to make Azure PowerShell available in the function runtime: [enable managedDependency in host.json](required-enable-manageddependency-property-in-hostjson) and [list Az Module in the requirements.psd1](#required-including-az-module-in-requirementspsd1).
+
+However, just having Az module available in an azure function is often not enough. Most likely, we'll want to communicate with Azure and manage resources there. To accomplish that, we need to set up necessary permissions for the Azure Function.
+
+One of the options is to [configure system-assigned managed identity](#configuring-managed-identity) and [grant necessary permissions](#granting-permissions) to it on Azure's side. Then in the PowerShell code, we can [connect to a subscription](#connecting-to-a-subscription) and run commands. 
+
+Lastly, just a convenient thing, we show how to [edit PowerShell Azure Function files in Azure Portal](#editing-files-in-azure-portal), for example, `host.json`, `requirements.psd1`, `run.ps`, `function.json`, and others.
+
+
 ## [Required] Enable managedDependency property in host.json
 
-We need to verify that managedDependency is enabled in [host.json](https://docs.microsoft.com/en-us/azure/azure-functions/functions-host-json){:target="_blank"}, it is set to true by default when a PowerShell functions project is created.
+We need to verify that `managedDependency` property is enabled in [host.json](https://docs.microsoft.com/en-us/azure/azure-functions/functions-host-json){:target="_blank"}, it is set to true by default when a PowerShell functions project is created.
 
-[PowerShell gallery](https://www.powershellgallery.com/){:target="_blank"} is used to manage dependencies, and the list of required modules is taken from `requirements.psd1`.
+When this feature is enabled, [PowerShell gallery](https://www.powershellgallery.com/){:target="_blank"} is used to manage dependencies, and the list of required modules is taken from `requirements.psd1`.
 
 ```json
 {

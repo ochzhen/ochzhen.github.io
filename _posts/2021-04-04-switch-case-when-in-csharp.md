@@ -7,18 +7,29 @@ tags: C#
 
 In this post we are going to take a look at a relatively new feature - `when` keyword in the context of switch statement and switch expression.
 
-In particular, the topics we will discuss and also C# versions when they were introduced:
+**Keyword `when` is used to specify a condition in a `case` label of `switch` statement or expression. This provides a fine-grained control over which switch section will be executed based on a condition (expression which evaluates to boolean).**
 
-- **Switch statement** - well familiar option to perhaps any programmer, it is present in all C# versions
-- **When keyword** - starting C# 7.0 `when` keyword can be used in switch statement, this post talks a lot about this feature
-- **Switch expression** - introduced in C# 8.0 and provides `switch`-like semantics in an expression context
-- **Relational pattern** - C# 9.0 feature that allows specifying conditions even without `when` keyword
+Besides the theoretical part, I tried to include many practical and easy to understand examples when this functionality can be useful. Feel free to jump straight there if you just want to look at some examples.
 
-In the following sections we will explore different aspects of the functionality mentioned above as well as a number of use cases and examples.
 
 **Contents:**
 * TOC
 {:toc}
+
+
+## Overview
+
+Introduction of `when` keyword into the `switch` statement allowed handling more complex scenarios where `case` labels cannot be expressed only with constant or type patterns.
+
+In particular, here is a list of topics we will discuss and also C# versions when they were introduced:
+
+- [Switch statement](#switch-statement-and-when-keyword) - well familiar option to perhaps any programmer, it is present in all C# versions
+- [When keyword](#pattern-matching-type-pattern-and-when-keyword) - starting C# 7.0 `when` keyword can be used in switch statement, this post talks a lot about this feature
+- [Switch expression](#c-80---using-when-in-switch-expression) - introduced in C# 8.0 and provides `switch`-like semantics in an expression context
+- [Relational pattern](#c-90---using-relational-pattern-instead-of-when) - C# 9.0 feature that allows specifying conditions even without `when` keyword
+
+All topics mentioned above are supplemented with a set of examples and common use cases listed in the [Examples of C# Switch Case](#examples-of-c-switch-case) section. This should give a good idea how to use switch-case-when in practice.
+
 
 ## Switch Statement and "when" keyword
 
