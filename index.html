@@ -23,7 +23,7 @@ title: Home
 </div>
 
 <div class="catalogue">
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts limit:5 %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
       <div>
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
