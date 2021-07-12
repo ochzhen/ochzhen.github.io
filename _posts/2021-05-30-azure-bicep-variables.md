@@ -410,6 +410,7 @@ The Bicep code above is compiled into the following ARM template. Note that `lis
 - [Reference New Or Existing Resource In Azure Bicep](/blog/reference-new-or-existing-resource-in-azure-bicep)
 - [Child Resources In Azure Bicep - 3 Ways To Declare, Loops, Conditions](/blog/child-resources-in-azure-bicep)
 - [Create Resource Group With Azure Bicep and Deploy Resources In It](/blog/create-resource-group-azure-bicep)
+- [Deploy Azure Bicep In YAML and Classic Release Pipelines (CI/CD) - Azure DevOps](/blog/deploy-azure-bicep-in-cicd-pipeline)
 - [Reference() Function Explained With Examples - ARM Template](/blog/reference-function-arm-template)
 
 ## Useful Links
